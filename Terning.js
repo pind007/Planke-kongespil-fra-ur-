@@ -5,7 +5,7 @@ class Terning {
         let terning2 = Math.floor(random(1,5));
         let terning3 = Math.floor(random(1,5));
         let terning4 = Math.floor(random(1,5)); //4 terninger
-        this.værdi.push(terning1); //den værdi som er slået bliver gemt i arrayet this.værdi
+        this.værdi.push(terning1);  //den værdi som er slået bliver gemt i arrayet this.værdi
         this.værdi.push(terning2);
         this.værdi.push(terning3);
         this.værdi.push(terning4);

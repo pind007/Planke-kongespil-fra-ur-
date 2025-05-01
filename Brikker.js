@@ -10,10 +10,10 @@ class Brikker extends Board {
             [3, 3, 3, 3, 3, 3, 3, 0], // række 4
             [4, 4, 4, 4, 4, 4, 4, 0] // række 5
         ];
-        this.valgtBrikRække = null; // starter med ingen valgt brik række
-        this.valgtBrikKolonne = null; // starter med ingen valgt brik kolonne
-        this.pointsHvid = 0; // points for hvid
-        this.pointsSort= 0; // points for sort
+            this.valgtBrikRække = null; // starter med ingen valgt brik række
+            this.valgtBrikKolonne = null; // starter med ingen valgt brik kolonne
+            this.pointsHvid = 0; // points for hvid
+            this.pointsSort= 0; // points for sort
     }
    
     tegnBrikker() {
@@ -146,7 +146,6 @@ class Brikker extends Board {
             this.brikkerGrid[0][5] = 0; // fjerne brik og tæller points
             if(this.pointsHvid === 7){ // alle brikker er kommet igennem banen
                 console.log("Hvid vinder");
-                return "Hvid vinder"; // returner besked
             }
         }
     }
@@ -158,7 +157,6 @@ class Brikker extends Board {
         }
         if(this.pointsSort === 7){ //hvis sort vinder
             console.log("Sort vinder"); 
-            return "Sort vinder"; // returner besked
         }
     }
 }

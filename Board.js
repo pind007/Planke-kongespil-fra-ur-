@@ -18,7 +18,6 @@ class Board {
         //this.grid[2][0] = 0;
     }
     tegnBoard(){
-        let x;
         for (let række = 0; række < this.rækker; række++) {
             for (let kollon = 0; kollon < this.kolloner; kollon++) {        //kører igennem alle felter i this.grid
                 if (this.grid[række][kollon] === 1) {  // hvis der i this.grid er vaiablen 1 skal der:

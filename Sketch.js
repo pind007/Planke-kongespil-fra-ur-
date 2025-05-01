@@ -49,9 +49,6 @@ function draw(){
 function mousePressed() {
     // registrer hvilken brik der blev trykket på
     let valgt = brikker.registrerKlik(mouseX, mouseY);
-    if (valgt) {
-        console.log("Valgt brik på række:", valgt.række, "kolonne:", valgt.kollon);
-    } 
 }
 function mouseReleased() {
     // beregn ny position baseret på musens position
